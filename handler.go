@@ -9,7 +9,7 @@ type requester[Request any] interface {
 }
 
 type respondor[Response any] interface {
-	Render(http.ResponseWriter, *http.Request, Response, error)
+	Render(http.ResponseWriter, Response, error)
 }
 
 type Handler[Request, Response any] interface {
@@ -23,6 +23,6 @@ func NewHandle[Request, Response any](handler Handler[Request, Response]) func(w
 	return func(w http.ResponseWriter, r *http.Request) {
 		request := handler.Build(r)
 		response, err := handler.Handle(request)
-		handler.Render(w, r, response, err)
+		handler.Render(w, response, err)
 	}
 }
