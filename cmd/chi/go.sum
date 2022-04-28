@@ -1,0 +1,6 @@
+github.com/blck-snwmn/gogenericshandler v0.0.0-20220428145036-3723f9745f9e h1:/Csaq6uXOOf1LWtb7Y1ZaCkD/K3urbUqGIxD8tUFGwA=
+github.com/blck-snwmn/gogenericshandler v0.0.0-20220428145036-3723f9745f9e/go.mod h1:1rLGVuACr9GdLnAP3GxeqWIuVRdJFAgh9E6CSONulVc=
+github.com/blck-snwmn/gogenericshandler v0.0.0-20220428152314-1bb3bd0b9eb1 h1:or5IpSVKKZLXNnRSgwY0BU4FzWzggJkt9Ig2Ui0fBSU=
+github.com/blck-snwmn/gogenericshandler v0.0.0-20220428152314-1bb3bd0b9eb1/go.mod h1:1rLGVuACr9GdLnAP3GxeqWIuVRdJFAgh9E6CSONulVc=
+github.com/go-chi/chi/v5 v5.0.7 h1:rDTPXLDHGATaeHvVlLcR4Qe0zftYethFucbjVQ1PxU8=
+github.com/go-chi/chi/v5 v5.0.7/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
